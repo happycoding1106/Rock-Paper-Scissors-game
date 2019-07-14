@@ -1,0 +1,11 @@
+__pycache__
+*.pyc
+*.bak
+*.pkl
+*.csv
+*.ipynb
+*.html
+img/rock/*.png
+img/paper/*.png
+img/scissors/*.png
+awb_gains*
