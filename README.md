@@ -2,13 +2,6 @@
 A Rock-Paper-Scissors game using computer vision and machine learning on Raspberry Pi.
 
 [![Animated screenshot](img/doc/rps.gif)](https://www.youtube.com/watch?v=ozo0-lx_PMA)  
-Click on image to access [video on YouTube](https://www.youtube.com/watch?v=ozo0-lx_PMA).
-
-#### This project is [showcased](https://www.raspberrypi.org/magpi-issues/MagPi74.pdf#%5B%7B%22num%22%3A272%2C%22gen%22%3A0%7D%2C%7B%22name%22%3A%22FitH%22%7D%2C787%5D) in [issue 74](https://www.raspberrypi.org/magpi/issues/74/)  of the MagPi, the official magazine of the [Raspberry Pi Foundation](https://www.raspberrypi.org/).
-
-* See my [DrGFreeman/rps-cv-data-science](https://github.com/DrGFreeman/rps-cv-data-science) repository where I posted different notebooks demonstrating some cool data science analysis on the image dataset resulting from this project.
-
-* [MagPi article in Simplified Chinese](https://github.com/TommyZihao/MagPi_Chinese/blob/master/MagPi74_18-19%E7%94%A8%E6%A0%91%E8%8E%93%E6%B4%BE%E8%B7%9F%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E7%8E%A9%E7%8C%9C%E6%8B%B3.md) contributed by [Tommy Zihao](https://github.com/TommyZihao)
 
 ## Summary
 
@@ -22,7 +15,7 @@ The image classifier uses a [Support Vector Machine](https://en.wikipedia.org/wi
 
 ### How it works
 
-The image below shows the processing pipeline for the training of the image classifier (top portion) and the prediction of gesture for new images captured by the camera during the game (bottom portion). Click [here](https://raw.githubusercontent.com/DrGFreeman/rps-cv/master/img/doc/rps-pipeline.png) for full size image.
+The image below shows the processing pipeline for the training of the image classifier (top portion) and the prediction of gesture for new images captured by the camera during the game (bottom portion). 
 ![Rock-Paper-Scissors computer vision & machine learning pipeline](img/doc/rps-pipeline.png)
 
 ## Dependencies
@@ -45,7 +38,6 @@ The project depends on and has been tested with the following libraries:
 * [Raspberry Pi Camera Module V2](https://www.raspberrypi.org/products/camera-module-v2/)
 * A green background to allow background subtraction in the captured images.
 * A physical setup for the camera to ensure consistent lighting and camera position. The 3D models I used are available [on Thingiverse](https://www.thingiverse.com/thing:2598378).
-
 
 ![Camera & lighting setup](img/doc/hardware_front.jpg)
 ![Camera & lighting setup](img/doc/hardware_rear.jpg)
